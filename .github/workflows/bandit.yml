@@ -4,11 +4,12 @@ on:
     branches:
       - develop
   pull_request:
-  jobs:
+  
+jobs:
     bandit:
       name: tfsec
-      runs-on: [ atc-ubuntu-20.04 ]
-    steps:
+      runs-on: ubuntu-latest
+      steps:
       - name: Checking out blueprint on the branch that you pushed on
         uses: actions/checkout@master
           
