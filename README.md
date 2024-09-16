@@ -1,13 +1,3 @@
-# Vulnerable Node Express
-
-This is a vulnerable Node Express service meant to be used as a target for security testing tools.
-
-## Build and Run
-
-### Install NPM Dependencies
-```shell script
-npm install
-```
 
 ### Initialize SQLite DB
 ```shell
